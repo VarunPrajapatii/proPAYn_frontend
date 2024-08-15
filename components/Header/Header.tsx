@@ -3,7 +3,7 @@ import HeaderOption from "./HeaderOption";
 
 const Header = () => {
     return (
-        <div className="flex bg-customWhite justify-between " >
+        <div className={`flex bg-customWhite justify-between `} >
             <div className="flex pl-20">
                 <Image
                 src="/images/header_Propayn_logo.png" // Update the path to match where your image is stored

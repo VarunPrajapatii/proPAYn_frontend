@@ -1,10 +1,81 @@
 
 
-
 export default function PayPage() {
     return (
-        <div>
-            paypage
+        // <div className="bg-[url('/images/couple_using_propayn.jpg')] bg-cover bg-center h-screen bg-opacity-85">
+        //     <div className="">
+        //         hi there
+                
+        //     </div>
+        // </div>
+        <div className="relative h-screen">
+            <div className="absolute inset-0 bg-[url('/images/couple_using_propayn.jpg')] bg-cover bg-center opacity-65 blur-sm -z-20"> </div>
+            <div className="relative z-10">
+                <div className="text-customBlue-mid font-bold text-5xl">
+                    Transfer
+                </div>
+                <div className="flex justify-between pt-20">
+                    <div className="pl-40 w-full">
+                        <div className="bg-slate-100 p-10 opacity-80 rounded-3xl">
+                            <div className="">
+                                <div className="flex items-center">
+                                    <div className="">
+                                        <svg 
+                                            xmlns="http://www.w3.org/2000/svg" 
+                                            viewBox="0 0 512 512"
+                                            fill="#134B70"
+                                            className="w-12 h-12 mr-4 ml-4">
+                                            <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-224c0-35.3-28.7-64-64-64L80 128c-8.8 0-16-7.2-16-16s7.2-16 16-16l368 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L64 32zM416 272a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"
+                                        />
+                                        </svg>
+                                    </div>
+                                    <div className="p-5">
+                                        <div className="font-extrabold text-3xl">
+                                            Rs. 30.75
+                                        </div>
+                                        <div className="font-light text-sm">
+                                            Your Wallet Balance
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div>
+                                {/* <div className="text-center">
+                                    Add Money to Wallet
+                                </div> */}
+                                <div className="m-8">
+                                    <div className="relative mt-2 rounded-md shadow-sm">
+                                        <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">₹</div>
+                                            <input 
+                                                type="text" 
+                                                name="price" 
+                                                id="price" 
+                                                className="px-24 py-3 block w-full rounded-md border-0 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" 
+                                                placeholder="0.00"
+                                            />
+                                        </div>
+                                    </div>
+                                    <div className="flex justify-center m-10">
+                                        <button className="bg-customBlue-dark px-24 py-3 rounded-md font-semibold text-xl text-white">
+                                            Add Money to Wallet
+                                        </button>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div className="pr-40 w-full">
+                        <div className="bg-slate-100  opacity-80 rounded-3xl">
+                            <div>
+                                Payments
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        
     );
 }
+
+
