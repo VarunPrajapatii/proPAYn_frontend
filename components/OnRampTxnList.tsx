@@ -3,7 +3,7 @@
 export default function OnRampTxnlist() {
     return (
         <div>
-            <div className="flex justify-between">
+            <div className="flex justify-between px-5">
                 <div className="flex p-3">
                     <div className="p-4">
                         <div className="">

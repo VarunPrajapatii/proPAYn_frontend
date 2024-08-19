@@ -12,12 +12,12 @@ export default function PayPage() {
         <div className="relative h-screen">
             <div className="absolute inset-0 bg-[url('/images/couple_using_propayn.jpg')] bg-cover bg-center opacity-65 blur-sm -z-20"> </div>
             <div className="relative z-10">
-                <div className="text-customBlue-mid font-bold text-5xl">
-                    Transfer
+                <div className=" font-bold text-6xl flex justify-center pt-7 bg-">
+                    Money Transfer
                 </div>
-                <div className="flex justify-between pt-20">
-                    <div className="pl-32 pr-5 w-full">
-                        <div className="bg-slate-100 p-10 opacity-80 rounded-3xl">
+                <div className="flex justify-between pt-12">
+                    <div className=" pl-32 pr-5 w-full">
+                        <div className="bg-slate-200 p-10 opacity-80 rounded-3xl">
                             <div className="">
                                 <div className="flex items-center">
                                     <div className="">
@@ -51,7 +51,7 @@ export default function PayPage() {
                                                 type="text" 
                                                 name="price" 
                                                 id="price" 
-                                                className="px-24 py-3 block w-full rounded-md border-0 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" 
+                                                className="px-24 py-3 block w-full text-xl font-semibold rounded-md border-0 pl-7 pr-20 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 " 
                                                 placeholder="0.00"
                                             />
                                         </div>
@@ -66,7 +66,7 @@ export default function PayPage() {
                     </div>
                     <div className="pr-32 pl-5 w-full">
                         <div className="bg-slate-100  opacity-80 rounded-3xl">
-                            <div className="pl-72 py-6 text-2xl font-semibold ">
+                            <div className="pl-72 py-8 text-2xl font-semibold ">
                                 Bank to Wallet Transfers
                             </div>
                             <OnRampTxnlist />
