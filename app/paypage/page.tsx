@@ -1,3 +1,4 @@
+import OnRampTxnlist from "@/components/OnRampTxnList";
 
 
 export default function PayPage() {
@@ -15,7 +16,7 @@ export default function PayPage() {
                     Transfer
                 </div>
                 <div className="flex justify-between pt-20">
-                    <div className="pl-40 w-full">
+                    <div className="pl-32 pr-5 w-full">
                         <div className="bg-slate-100 p-10 opacity-80 rounded-3xl">
                             <div className="">
                                 <div className="flex items-center">
@@ -23,8 +24,7 @@ export default function PayPage() {
                                         <svg 
                                             xmlns="http://www.w3.org/2000/svg" 
                                             viewBox="0 0 512 512"
-                                            fill="#134B70"
-                                            className="w-12 h-12 mr-4 ml-4">
+                                            className="w-12 h-12 mr-4 ml-4 text-customBlue-mid fill-current">
                                             <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-224c0-35.3-28.7-64-64-64L80 128c-8.8 0-16-7.2-16-16s7.2-16 16-16l368 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L64 32zM416 272a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"
                                         />
                                         </svg>
@@ -57,18 +57,23 @@ export default function PayPage() {
                                         </div>
                                     </div>
                                     <div className="flex justify-center m-10">
-                                        <button className="bg-customBlue-dark px-24 py-3 rounded-md font-semibold text-xl text-white">
+                                        <button className="bg-customBlue-dark px-24 py-3 rounded-md font-bold text-xl text-white">
                                             Add Money to Wallet
                                         </button>
                                     </div>
                                 </div>
                         </div>
                     </div>
-                    <div className="pr-40 w-full">
+                    <div className="pr-32 pl-5 w-full">
                         <div className="bg-slate-100  opacity-80 rounded-3xl">
-                            <div>
-                                Payments
+                            <div className="pl-72 py-6 text-2xl font-semibold ">
+                                Bank to Wallet Transfers
                             </div>
+                            <OnRampTxnlist />
+                            <OnRampTxnlist />
+                            <OnRampTxnlist />
+                            <OnRampTxnlist />
+                            <OnRampTxnlist />
                         </div>
                     </div>
                 </div>
