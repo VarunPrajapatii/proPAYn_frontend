@@ -66,7 +66,7 @@ export default function PayPage() {
                     </div>
                     <div className="pr-32 pl-5 w-full">
                         <div className="bg-slate-100  opacity-80 rounded-3xl">
-                            <div className="pl-72 py-8 text-2xl font-semibold ">
+                            <div className="flex justify-center py-8 text-2xl font-semibold ">
                                 Bank to Wallet Transfers
                             </div>
                             <OnRampTxnlist />

@@ -12,8 +12,8 @@ const Header = () => {
                 height={20} // Specify the height of the image
                 />
                 <div className=" pl-20 pt-6">
-                    <HeaderOption name="Add Money" />
-                    <HeaderOption name="Send Money" />
+                    <HeaderOption path={"paypage"} name="Add Money" />
+                    <HeaderOption path={"p2pTransfer"} name="Send Money" />
                 </div>
             </div>
             <div className="pr-56 pt-3">
