@@ -45,7 +45,7 @@ export default function PayPage() {
                                     Add Money to Wallet
                                 </div> */}
                                 <div className="m-8">
-                                    <label className="text-xl">Amount</label>
+                                    <label className="text-2xl font-semibold">Amount</label>
                                     <div className="relative mt-2 rounded-md shadow-sm">
                                         <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">₹</div>
                                         <input 
@@ -56,7 +56,7 @@ export default function PayPage() {
                                             placeholder="0.00"
                                         />
                                     </div>
-                                    <label className="text-xl">Number</label>
+                                    <label className="text-2xl font-semibold">Number</label>
                                     <div className="relative mt-2 rounded-md shadow-sm">
                                         <div className="pointer-events-none absolute inset-y-0 text-xl left-0 flex items-center pl-3">+91</div>
                                         <input 
